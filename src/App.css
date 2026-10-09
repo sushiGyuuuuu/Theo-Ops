@@ -1,0 +1,62 @@
+.gridbg {
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.035) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.035) 1px,
+      transparent 1px
+    );
+
+  background-size: 48px 48px;
+  background-position: center top;
+}
+
+.glow {
+  box-shadow: 0 0 90px rgba(99, 102, 241, 0.13);
+}
+
+.service-card,
+.project-card {
+  transition:
+    transform 220ms ease,
+    border-color 220ms ease,
+    background-color 220ms ease;
+}
+
+.service-card:hover,
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(129, 140, 248, 0.4);
+}
+
+.contact-field {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 14px 16px;
+  color: #f4f4f5;
+  outline: none;
+  transition: border-color 180ms ease;
+}
+
+.contact-field::placeholder {
+  color: #71717a;
+}
+
+.contact-field:focus {
+  border-color: #818cf8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

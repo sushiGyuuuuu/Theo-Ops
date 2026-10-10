@@ -3,6 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import Navigation from "./components/Navigation";
 import Contact from "./components/Contact";
 import Reveal from "./components/Reveal";
+import Footer from "./components/Footer";
 
 import hero from "./data/hero";
 import projects from "./data/projects";
@@ -388,22 +389,6 @@ function About() {
         </div>
       </div>
     </section>
-  );
-}
-
-function Footer() {
-  return (
-    <footer className="border-t border-white/10 px-6 py-8">
-      <div className="mx-auto flex max-w-6xl flex-col gap-3 text-sm text-zinc-400 sm:flex-row sm:items-center sm:justify-between">
-        <a href="#home" className="font-semibold text-zinc-300">
-          THEO<span className="text-indigo-400">.OPS</span>
-        </a>
-
-        <p>© {year} Gabriel Theodore Perez</p>
-
-        <p>AI Automation · Built with React &amp; Tailwind CSS</p>
-      </div>
-    </footer>
   );
 }
 

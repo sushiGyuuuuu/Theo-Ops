@@ -1,5 +1,6 @@
 
 import { ArrowUpRight, ArrowUp, Mail } from "lucide-react";
+import contact from "../data/contact";
 
 const navigation = [
   { label: "Home", href: "#home" },
@@ -30,7 +31,7 @@ const socials = [
   },
   {
     label: "Email",
-    href: "mailto:your-email@example.com",
+    href: `mailto:${contact.email}`,
     icon: Mail,
   },
 ];

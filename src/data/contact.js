@@ -6,7 +6,7 @@ const contact = {
   button: "Start a Conversation",
   note: "No pitch, no pressure. I read every message personally and reply within 1–2 business days.",
   email: "keizo6106@gmail.com",
-  github: "https://github.com/sushiGyuuuuu",
+  github: "https://github.com/theoo-ops",
   linkedin: "https://www.linkedin.com/in/gabriel-theodore-perez-5ab80a403/",
 };
 
